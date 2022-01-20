@@ -143,8 +143,7 @@ main img.bugdroid {
 
 .video {
     background-color: var(--cor5);
-    margin-bottom: 30px;
-    margin: 0 20px 30px -20px;
+    margin: 0 -20px 30px -20px;
     padding: 15px;
     padding-bottom: 55.2%;
     position: relative;
