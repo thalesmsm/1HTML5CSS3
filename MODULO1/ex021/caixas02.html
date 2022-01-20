@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tgs</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(80, 80, 80);
+            padding: 3px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.371);
+        }
+        nav > a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 10px 10px 10px;   
+        }
+        #assuntos {
+            padding: 5px;
+        }
+        article {
+            margin-bottom: 10px;
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 1px 30px;
+            box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.419);
+        }
+        article > aside >p {
+            background-color: rgb(148, 148, 148);
+            border-radius: 0px 0px 0px 30px;
+            margin: 5px;
+            padding: 5px;
+            padding-left: 12px;
+            font-size: 0.8em;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;  
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Assuntos vairados</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias quentes</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore suscipit nesciunt itaque laudantium, cum quibusdam modi dignissimos cumque autem aliquid ipsum delectus corrupti molestias laboriosam quidem excepturi maiores laborum nihil.</p>
+                <aside>
+                    <p>Artigo escrito por joao gomes</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Notícias mornas</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe doloribus magni illum corporis id perferendis blanditiis cumque facere ut dolorum, velit iusto reiciendis quasi neque, nemo quod veniam ratione. Eius.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por chaos corporation
+    </footer>
+</body>
+</html>

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body{
+    background-color: lightsalmon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(37, 40, 63);
+    background-color: rgb(114, 123, 197);
+    border-radius: 15px;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+   
+    
+}
+h2{
+    color: rgb(20, 83, 146);
+    background-color: rgb(148, 153, 158);
+    border-radius: 7.5px;
+    padding: 2px;
+    width: 120px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+p{
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}

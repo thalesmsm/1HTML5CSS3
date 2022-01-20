@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas e áudios</title>
+</head>
+<body>
+    <h1>Aqui estão as imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 580px)" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width: 730px)" srcset="imagens/img-xp.png" type="image/png">
+        <source media="(max-width: 880px)" srcset="imagens/img-m.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="imagens/img-xm.png" type="image/png">
+        <img src="imagens/img-g.png" alt="Imagem dinâmica">
+    </picture>
+    <h1>Áudio</h1>
+    <audio preload="metadata" controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+    </audio>
+    <br>
+    <audio src="midia/happy-mistake.mp3" controls></audio>
+    <p>Não conseguiu ouvir? baixe o ep <a href="midia/guanacast-33.mp3" target="_blank" rel="external">AQUI</a></p>
+</body>
+</html>
