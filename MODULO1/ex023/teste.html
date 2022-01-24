@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+    
+        .corpo {
+            display: flex;
+            height: 250px;
+        }
+        .colunaEsquerda {
+            border: 1px solid black;
+            padding: 10px;
+            width: 200px;
+            height: 800px;
+        }
+        .colunaEsquerda td{
+            padding: 10px 20px;
+        }
+        .colunaEsquerda__transparente {
+            width: 201px;
+            padding: 10px;
+        }
+        .colunaEsquerda__transparente td{
+            padding: 10px 20px;
+        }
+        .conteudo {
+            width: 1000px;
+            height: 200px;
+            background-color: lightgray;
+            margin: 0 auto;
+            display: flex;
+        }
+        .conteudo .caixas {
+            width: 150px;
+            height: 150px;
+            background-color: gray;
+            margin: auto 0 auto 25px;
+        }
+        .conteudo p{
+            height: 150px;
+            margin: auto 0 auto 5px;
+            padding-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <section class="corpo">
+        <div class="colunaEsquerda">
+            <table>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+                <tr> <td>menu</td> </tr>
+            </table>
+        </div>
+        <div class="conteudo">
+            <div class="caixas"></div>
+            <p>asdasd <br> R$100</p>
+            <div class="caixas"></div>
+            <p>asdasd</p>
+            <div class="caixas"></div>
+            <p>asdasd</p>
+            <div class="caixas"></div>
+            <p>asdasd</p>
+        </div>        
+    </section>
+    <section class="corpo">
+        <div class="colunaEsquerda__transparente">
+            <table>
+                <tr><td></td></tr>
+            </table>
+        </div>
+        <div class="conteudo">
+            <div class="caixas"></div>
+            <div class="caixas"></div>
+            <div class="caixas"></div>
+            <div class="caixas"></div>
+        </div> 
+    </section>
+</body>
+</html>
