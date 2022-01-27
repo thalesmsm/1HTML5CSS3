@@ -9,8 +9,6 @@
     
         .corpo {
             display: flex;
-            height: 200px;
-            margin-bottom: 50px;
         }
         .colunaEsquerda {
             border: 1px solid black;
@@ -21,19 +19,16 @@
         .colunaEsquerda td {
             padding: 10px 20px;
         }
-        .colunaEsquerda__transparente {
-            width: 201px;
-            height: 1px;
-            padding: 0 10px;
+        
+        .containerConteudo {
+            margin: 0 auto;
         }
-        .colunaEsquerda__transparente td{
-            padding: 10px 20px;
-        }
+
         .conteudo {
             width: 1000px;
             height: 200px;
             background-color: lightgray;
-            margin: 0 auto;
+            margin-bottom: 50px;
             display: flex;
         }
         .conteudo .caixas {
@@ -44,7 +39,6 @@
         }
 
         .conteudo .caixas:hover {
-            /* margin: auto 0 28px 25px; */
             width: 159px;
             height: 159px;
         }
@@ -61,18 +55,11 @@
     <section class="corpo">
         <div class="colunaEsquerda">
             <table>
-                <tr> <td><a href="#">menu</a></td> </tr>
-                <tr> <td><a href="#">menu</a></td> </tr>
-                <tr> <td><a href="#">menu</a></td> </tr>
                 <tr> <td>menu</td> </tr>
                 <tr> <td>menu</td> </tr>
                 <tr> <td>menu</td> </tr>
                 <tr> <td>menu</td> </tr>
                 <tr> <td>menu</td> </tr>
-                <tr> <td><a href="#">menu</a></td> </tr>
-                <tr> <td><a href="#">menu</a></td> </tr>
-                <tr> <td>menu</td> </tr>
-                <tr> <td><a href="#">menu</a></td> </tr>
                 <tr> <td>menu</td> </tr>
                 <tr> <td>menu</td> </tr>
                 <tr> <td>menu</td> </tr>
@@ -83,51 +70,28 @@
                 <tr> <td>menu</td> </tr>
             </table>
         </div>
-        <div class="conteudo">
-            <div class="caixas"></div>
-            <p>asdasd <br> R$100</p>
-            <div class="caixas"></div>
-            <p>asdasd <br> R$100</p>
-            <div class="caixas"></div>
-            <p>asdasd <br> R$100</p>
-            <div class="caixas"></div>
-            <p>asdasd <br> R$100</p>
-        </div>        
-    </section>
-    <section class="corpo">
-        <div class="colunaEsquerda__transparente">
-            <table>
-                <tr><td></td></tr>
-            </table>
-        </div>
-        <div class="conteudo">
-            <div class="caixas"></div>
-            <p>asdasd <br> R$100</p>
-            <div class="caixas"></div>
-            <p>asdasd <br> R$100</p>
-            <div class="caixas"></div>
-            <p>asdasd <br> R$100</p>
-            <div class="caixas"></div>
-            <p>asdasd <br> R$100</p>
-        </div> 
-    </section>
-
-    <section class="corpo">
-        <div class="colunaEsquerda__transparente">
-            <table>
-                <tr><td></td></tr>
-            </table>
-        </div>
-        <div class="conteudo">
-            <div class="caixas"></div>
-            <p>asdasd <br> R$100</p>
-            <div class="caixas"></div>
-            <p>asdasd <br> R$100</p>
-            <div class="caixas"></div>
-            <p>asdasd <br> R$100</p>
-            <div class="caixas"></div>
-            <p>asdasd <br> R$100</p>
-        </div> 
+        <div class="containerConteudo">
+            <div class="conteudo">
+                <div class="caixas"></div>
+                <p>asdasd <br> R$100</p>
+                <div class="caixas"></div>
+                <p>asdasd <br> R$100</p>
+                <div class="caixas"></div>
+                <p>asdasd <br> R$100</p>
+                <div class="caixas"></div>
+                <p>asdasd <br> R$100</p>
+            </div>
+            <div class="conteudo">
+                <div class="caixas"></div>
+                <p>asdasd <br> R$100</p>
+                <div class="caixas"></div>
+                <p>asdasd <br> R$100</p>
+                <div class="caixas"></div>
+                <p>asdasd <br> R$100</p>
+                <div class="caixas"></div>
+                <p>asdasd <br> R$100</p>
+            </div>
+        </div>    
     </section>
 </body>
 </html>
