@@ -13,38 +13,41 @@
             box-sizing: border-box;
         }
 
-        .cabecalho {
+        .containerCabecalho {
             text-align: center;
-            background-color: cadetblue;
+            background-color: rgb(95, 160, 98);
             padding: 20px;
         }
 
-        .cabecalho #cabecalho {
+        .containerCabecalho #cabecalho {
             display: flex;
             justify-content: space-between;
         }
 
-        .cabecalho #cabecalho .redesSociais {
+        .containerCabecalho #cabecalho .redesSociais {
             width: 30px;
             height: 30px;
             border: 1px solid black;
             margin: 8px;
         }
 
-        .cabecalho h1 {
+        .containerCabecalho h1 {
             margin: auto;
         }
 
-        .cabecalho h1 p {
+        .containerCabecalho h1 p {
             font-size: 0.4em;
             font-weight: normal;
             margin-top: 10px;
         }
 
         .navegacao{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             text-align: left;
             padding: 10px;
-            background-color: cadetblue;
+            background-color: rgb(95, 160, 98);
         }
 
         .navegacao a{
@@ -55,7 +58,29 @@
         }
 
         .navegacao a:hover {
-            background-color: burlywood;
+            background-color: rgb(104, 175, 108);
+            border-radius: 3px;
+            font-weight: bold;
+        }
+
+        .navegacao .pesquisar {
+            display: flex;
+        }
+
+        .navegacao .pesquisar #barraDePesquisa{
+            border: 0.6px solid black;
+            border-radius: 3px 0 0 3px;
+            padding: 8px 10px;
+        }
+
+        .navegacao .pesquisar button {
+            border: 0.6px solid black;
+            border-radius: 0 3px 3px 0;
+            border-left: none;
+        }
+
+        .navegacao .pesquisar button img {
+            width: 18px;
         }
 
         .corpo {
@@ -117,27 +142,33 @@
 </head>
 <body>
 
-    <header class="cabecalho">
+    <header class="containerCabecalho">
         <div id="cabecalho">
             <h1>TITULO
                 <p>Um ecossistema em suas mãos</p>
             </h1>
             <a href="#">
-                <div class="redesSociais"></div>
+                <div class="redesSociais">inst</div>
             </a>
             <a href="#">
-                <div class="redesSociais"></div>
+                <div class="redesSociais">face</div>
             </a>
             <a href="#">
-                <div class="redesSociais"></div>
+                <div class="redesSociais">zap</div>
             </a>
         </div>        
     </header>
 
         <nav class="navegacao">
-            <a href="#">LINK</a>
-            <a href="#">LINK</a>
-            <a href="#">LINK</a>
+            <div class="links">
+                <a href="#">LINK</a>
+                <a href="#">LINK</a>
+                <a href="#">LINK</a>
+            </div>
+            <div class="pesquisar">
+                <input type="text" name="Pesequisar" id="barraDePesquisa" placeholder="O que está Procurando?">
+                <button><img src="pesquisa.svg" alt=""></button>
+            </div>
         </nav>
     <section class="corpo">
         <div class="colunaEsquerda">
